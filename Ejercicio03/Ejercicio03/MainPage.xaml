@@ -4,7 +4,9 @@
              x:Class="Ejercicio03.MainPage">
 
     <StackLayout>
-        <StackLayout></StackLayout>
+        <StackLayout>
+            
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
