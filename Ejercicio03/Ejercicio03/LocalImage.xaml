@@ -4,9 +4,7 @@
              x:Class="Ejercicio03.LocalImage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image Source="mari2.jpg"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

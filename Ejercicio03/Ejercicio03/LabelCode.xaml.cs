@@ -15,6 +15,19 @@ namespace Ejercicio03
         public LabelCode()
         {
             InitializeComponent();
+            StackLayout stack = new StackLayout();
+            var underlineLabel = new Label
+            {
+                Text = "This is underlined text.",
+                TextDecorations = TextDecorations.Underline
+            };
+            var strikethoughLabel = new Label { Text = "This is text with strikethrough.", TextDecorations = TextDecorations.Strikethrough };
+            var bothLabel = new Label { Text ="This is underlined text with strikethrough.", TextDecorations= TextDecorations.Underline | TextDecorations.Strikethrough };
+
+            stack.Children.Add(underlineLabel);
+            stack.Children.Add(strikethoughLabel);
+            stack.Children.Add(bothLabel);
+            Content = stack;
         }
     }
 }
